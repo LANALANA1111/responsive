@@ -1,0 +1,151 @@
+@media (width >768px){
+    .header{
+    gap: 400px;
+    }
+
+    .first >h1{
+        width: 339px;
+    }
+
+    .first >p{
+        width: 339px;
+    }
+
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .grayy{
+        display: none;
+    }
+
+    .two_btns{
+        width: 405px;
+    }
+
+    .two_img{
+        height: 450px;
+        padding-top: 40px;
+    }
+
+    .mdl_first_img{
+        width: 280px;
+        padding-left: 44px;
+    }
+
+    .mdl_first_img >img{
+        width: 218px;
+        border-radius: 35px;
+    }
+
+    .mdl_scnd_img >img{
+        width: 100%;
+    }
+
+    .mechanical{
+        display: flex;
+        padding-top: 15px;
+    }
+
+
+    .mechanical >h1{
+        width: 255px;
+        padding-left: 40px;
+    }
+
+    .mechanical >p{
+        width: 400px;
+    }
+
+    .justone >img{
+        justify-content: flex-start;
+    }
+
+
+    .justone >h1{
+        width: 339px;
+    }
+
+    .justtwo >h1{
+        width: 339px;
+    }
+
+    .justthree >h1{
+        width: 339px;
+    }
+
+    .justfour >h1{
+        width: 339px;
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (width >1024px){
+    .header{
+        display: flex;
+        gap: 900px;
+    }
+
+    .first >h1{
+        padding-left: 165px;
+    }
+
+    .first >p{
+        width: 560px;
+        padding-left: 165px;
+    }
+
+    .mdl{
+        padding-left: 480px;
+    }
+
+    .mdl >img{
+        width:500px;
+        border-radius: 20px;
+        border-top-right-radius: 40px;
+    }
+
+    .grayy{
+        display: block;
+        margin-top: 25px; 
+        margin-left: 20px;
+    }
+    
+    .grayy2{
+        display: block;
+        margin-top: 210px;
+    }
+    .mdl_first_img{
+        padding-left: 10px;
+    }
+
+    .two_btns{
+        width: 500px;
+        padding-left: 165px;
+    }
+
+    .mechimg{
+        display: flex;
+    }
+
+    .mechanical{
+        flex-direction: column;
+        padding-top: 100px;
+        padding-left: 200px;
+    }
+
+    .mechanical >p{
+        width: 315px;
+        align-items: start;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+}
